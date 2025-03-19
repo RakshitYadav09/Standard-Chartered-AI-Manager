@@ -1,0 +1,59 @@
+{
+  "personal_information": {
+    "date_of_birth": "1992-07-15",
+    "gender": "Male",
+    "father_name": "Rakesh Sharma",
+    "address": "101, Rajendra Nagar, Mumbai, Maharashtra, 400001",
+    "permanent_address": "501, Andheri West, Mumbai, Maharashtra, 400058"
+  },
+  "identification": {
+    "aadhaar_number": "1234-5678-9012",
+    "pan_number": "ABCDE1234F",
+    "voter_id": "MH/09/987/654321",
+    "passport_number": "P9876543",
+    "passport_issued_state": "Maharashtra",
+    "passport_expiry_date": "2032-10-05",
+    "pan_issue_date": "2011-08-19"
+  },
+  "contact": {
+    "phone": "+91 98765 43210",
+    "email": "amit.sharma@email.com"
+  },
+  "employment": {
+    "employer_name": "Tata Consultancy Services (TCS)",
+    "job_title": "Senior Software Developer",
+    "employment_type": "Full-time",
+    "annual_salary": "Rs18,00,000",
+    "work_experience": "8 years",
+    "employer_contact": {
+      "email": "hr@tcs.com",
+      "phone": "+91 22 6789 1234"
+    },
+    "employee_id": "TCS56789",
+    "date_of_joining": "2016-05-10",
+    "work_location": "TCS Campus, Mumbai",
+    "basic_salary": "Rs75,000",
+    "hra": "Rs30,000",
+    "pf_contribution": "Rs8,500",
+    "net_monthly_salary": "150000"
+  },
+  "financial": {
+    "bank_name": "ICICI Bank",
+    "account_number": "345678901234",
+    "account_type": "Savings",
+    "recent_transactions": []
+  },
+  "loan_request": {
+    "loan_amount": "Rs10,00,000",
+    "loan_purpose": "Purchase of a New Car",
+    "loan_term": "5 years",
+    "interest_rate": "9.2%",
+    "down_payment": "Rs2,00,000",
+    "car_model": "Hyundai Creta SX",
+    "ex_showroom_price": "Rs12,00,000",
+    "on_road_price": "Rs14,00,000",
+    "dealer_name": "Hyundai Motors, Mumbai",
+    "dealer_contact": "+91 22 5678 9012",
+    "property_value": "Rs10,00,000"
+  }
+}

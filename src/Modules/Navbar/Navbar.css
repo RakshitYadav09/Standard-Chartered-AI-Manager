@@ -1,0 +1,217 @@
+/* Clean and Modern Navbar Styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Core Layout */
+.navigation-wrap {
+  position: fixed;
+  width: 80%;
+  max-width: 1400px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 0 0 16px 16px;
+  transition: all 0.25s ease;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  width: 100%;
+}
+
+/* Logo Styling */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.logo-image {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Navigation Menu */
+.navbar-nav {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 8px 4px;
+  display: block;
+  transition: color 0.2s ease;
+  position: relative;
+}
+
+/* Simple underline animation */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0066b3;
+  transition: width 0.3s ease;
+}
+
+.nav-item:hover .nav-link {
+  color: #0066b3;
+}
+
+.nav-item:hover .nav-link::after {
+  width: 100%;
+}
+
+.nav-item.active .nav-link {
+  color: #0066b3;
+}
+
+.nav-item.active .nav-link::after {
+  width: 100%;
+}
+
+/* Mobile Toggle Button */
+.navbar-toggler {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.navbar-toggler-icon {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #333;
+  position: relative;
+  transition: background-color 0.2s ease;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  background-color: #333;
+  transition: transform 0.2s ease;
+}
+
+.navbar-toggler-icon::before {
+  top: -7px;
+}
+
+.navbar-toggler-icon::after {
+  top: 7px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .navigation-wrap {
+    width: 90%;
+  }
+  
+  .navbar-nav {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navigation-wrap {
+    width: 95%;
+  }
+  
+  .navbar {
+    padding: 12px 20px;
+  }
+  
+  .navbar-toggler {
+    display: block;
+  }
+  
+  .collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    border-radius: 0 0 16px 16px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .collapse.show {
+    max-height: 300px;
+  }
+  
+  .navbar-nav {
+    flex-direction: column;
+    gap: 0;
+    padding: 10px 0;
+  }
+  
+  .nav-item {
+    width: 100%;
+  }
+  
+  .nav-link {
+    padding: 12px 20px;
+    text-align: center;
+  }
+  
+  .nav-link::after {
+    display: none;
+  }
+  
+  .navbar-toggler.active .navbar-toggler-icon {
+    background-color: transparent;
+  }
+  
+  .navbar-toggler.active .navbar-toggler-icon::before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  
+  .navbar-toggler.active .navbar-toggler-icon::after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .navigation-wrap {
+    width: 100%;
+    border-radius: 0 0 12px 12px;
+  }
+  
+  .navbar {
+    padding: 10px 15px;
+  }
+  
+  .navbar-brand {
+    height: 50px;
+  }
+}
