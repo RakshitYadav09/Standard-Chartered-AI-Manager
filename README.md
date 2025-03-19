@@ -4,7 +4,7 @@ https://github.com/user-attachments/assets/9b2e73e6-92c6-4183-8aa9-8aa8ca96225d
 
 
 
-The video above showcases the working demo of our AI Loan Assistant Manager. Alternatively, you can view another demo on YouTube: [https://www.youtube.com/watch?v=0aRXOZ6ktgY][2]
+The video above showcases the working demo of our AI Loan Assistant Manager. There might be an audio issue for in System Audio so alternatively, you can view another demo on YouTube to hear our AI Assistance videos: [https://www.youtube.com/watch?v=0aRXOZ6ktgY][2]
 
 # 🏆 Standard Chartered AI Manager - Hackathon Project
 
