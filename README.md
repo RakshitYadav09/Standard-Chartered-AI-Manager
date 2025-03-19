@@ -1,7 +1,9 @@
 # Video Demo
 
-Open this (https://www.loom.com/share/b12f94f7ad3f48b3bd01aa19f246e8eb?sid=fdcf7ec5-0cbc-490b-97cf-82718e4b65c4) to view the working demo.
-Youtube link for the video (https://www.youtube.com/watch?v=0aRXOZ6ktgY)
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/33b9555eb5ce468cb08e43ec2fd06a92?sid=4f18c8af-b3f2-4d77-b370-d5420fb6f33c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+The video above showcases the working demo of our AI Loan Assistant Manager. Alternatively, you can view another demo on YouTube: [https://www.youtube.com/watch?v=0aRXOZ6ktgY][2]
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
