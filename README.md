@@ -1,6 +1,6 @@
 # Video Demo
 
-[https://github.com/user-attachments/assets/98d43947-a9fe-49a2-adbc-c6eac9877af1][1]
+[https://github.com/user-attachments/assets/98d43947-a9fe-49a2-adbc-c6eac9877af1]
 
 The video above showcases the working demo of our AI Loan Assistant Manager. Alternatively, you can view another demo on YouTube: [https://www.youtube.com/watch?v=0aRXOZ6ktgY][2]
 
